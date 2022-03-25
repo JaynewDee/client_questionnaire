@@ -1,18 +1,17 @@
 import React, { } from 'react';
-import './styles/App.css';
+import './styles/index.scss';
 
 // ----- Component Imports ----- //
-import  { Main, Header }  from './components/index';
+import  { FormArea }  from './components/index';
+import Main from './pages/Main'
 
 const App: React.FC = () => {
 
 
    return (
-    <div className="App">
-      <Header />
-      
+    <div className="App">      
       <Main>
-         
+         <FormArea />
       </Main>
     </div>
   );

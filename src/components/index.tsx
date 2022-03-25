@@ -1,5 +1,4 @@
 import Header from "./Header";
-import Main from "../pages/Main";
-import Question from "./Question";
+import FormArea from "./form/FormArea";
 
-export { Main, Header, Question };
+export { Header, FormArea};

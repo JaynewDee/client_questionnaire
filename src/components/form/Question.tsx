@@ -8,4 +8,4 @@ const Question: React.FC = () => {
   )
 }
 
-export default Question
+export default Question;
