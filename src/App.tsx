@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { } from 'react';
 import './styles/App.css';
 
-function App() {
-  return (
+// ----- Component Imports ----- //
+import  { Main, Header }  from './components/index';
+
+const App: React.FC = () => {
+
+
+   return (
     <div className="App">
+      <Header />
       
+      <Main>
+         
+      </Main>
     </div>
   );
 }
