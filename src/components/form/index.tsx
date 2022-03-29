@@ -1,3 +1,1 @@
-import FormArea from './FormArea';
-
-export { FormArea };
+import React from "react";

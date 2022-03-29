@@ -1,0 +1,17 @@
+@import '_fonts';
+
+.note {
+   font-size: $small;
+}
+
+.emphasize {
+   text-decoration: underline;
+}
+
+#greeting {
+   font-size: $large;
+}
+
+#thanks {
+   font-size: 1rem;
+}

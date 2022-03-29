@@ -1,4 +1,3 @@
-import Header from "./Header";
-import FormArea from "./form/FormArea";
-
-export { Header, FormArea};
+import Header from "./header/Header";
+import Note from './Note';
+export { Header, Note };
